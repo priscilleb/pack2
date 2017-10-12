@@ -1,0 +1,19 @@
+Package: pack2
+Type: Package
+Title: Test
+Version: 0.1.0
+Author: Priscille Boissonnet
+Maintainer: Priscille Boissonnet <priscille.boissonnet@polytechnique.edu>
+Description: Test.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: readxl,
+    ggplot2,
+    dplyr,
+    tidyr,
+    prenoms
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
