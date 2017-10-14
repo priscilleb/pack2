@@ -6,4 +6,4 @@ devtools::use_package("dplyr")
 devtools::use_package("tidyr")
 devtools::use_package("prenoms")
 devtools::use_vignette("pack2")
-
+devtools::build_vignettes()
