@@ -1,7 +1,7 @@
 #' Draw the evolution of the number of occurence of a given name
 #'
 #' @param a_name the name you want to observe
-#' @import tidyr dplyr ggplot2 prenoms
+#' @import tidyr dplyr ggplot2 prenoms assertthat
 #' @return a graph
 #' @export
 #'
@@ -13,6 +13,7 @@
 #'
 
 draw_a_name <- function(a_name){
+  assert_that(is.character(a_name))
   prenoms %>% filter(name==a_name) %>%
     group_by(year) %>%
     summarize(count=n()) %>%

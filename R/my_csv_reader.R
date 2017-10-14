@@ -5,7 +5,7 @@
 #' @return a list
 #' @export
 #' @importFrom utils read.csv2
-#'
+#' @import assertthat
 #' @examples
 #' \dontrun{
 #' my_cvs_reader(../../path/to/folder)

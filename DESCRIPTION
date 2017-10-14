@@ -13,7 +13,8 @@ Imports: readxl,
     ggplot2,
     dplyr,
     tidyr,
-    prenoms
+    prenoms,
+    assertthat
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr

@@ -1,7 +1,7 @@
 #' Import all  sheets from an excel file
 #'
 #' @param file path to the file
-#' @import readxl
+#' @import readxl assertthat
 #' @return a list
 #' @export
 #'
