@@ -1,5 +1,7 @@
 devtools::use_data_raw()
-install.packages("prenoms_0.1.0.tar.gz", repos = NULL, type = "source")
+#install.packages("prenoms_0.1.0.tar.gz", repos = NULL, type = "source")
+library(prenoms)
+devtools::use_data(prenoms)
 devtools::use_package("readxl")
 devtools::use_package("ggplot2")
 devtools::use_package("dplyr")

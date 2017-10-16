@@ -7,9 +7,10 @@
 #'
 #' @examples
 #' \dontrun{
-#' draw_names(c("name1","name2",...))
+#' draw_names(c("Jean","Marie"))
 #' }
 draw_names <- function(names){
+  data("prenoms")
   prenoms %>% filter(name %in% names) %>%
     group_by(year,name) %>%
     summarize(count=n()) %>%

@@ -17,6 +17,6 @@ Draw the evolution of the occurences of different names
 }
 \examples{
 \dontrun{
-draw_names(c("name1","name2",...))
+draw_names(c("Jean","Marie"))
 }
 }

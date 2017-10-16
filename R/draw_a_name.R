@@ -7,13 +7,14 @@
 #'
 #' @examples
 #' \dontrun{
-#' draw_a_name("the name you want")
+#' draw_a_name("Priscille")
 #' }
 #'
 #'
 
 draw_a_name <- function(a_name){
   assert_that(is.character(a_name))
+  data("prenoms")
   prenoms %>% filter(name==a_name) %>%
     group_by(year) %>%
     summarize(count=n()) %>%

@@ -17,7 +17,7 @@ Draw the evolution of the number of occurence of a given name
 }
 \examples{
 \dontrun{
-draw_a_name("the name you want")
+draw_a_name("Priscille")
 }
 
 
